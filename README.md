@@ -4,4 +4,5 @@ SimNka ---> simulator of non-deterministic finite
 
 MinDka ---> Minimization deterministic finite automata
 
-SimPa ---> simulator of deterministic pushdown automata  
+SimPa ---> simulator of deterministic pushdown automata 
+

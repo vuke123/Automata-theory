@@ -12,7 +12,7 @@ public class MinDka {
 		if (dohvatljivaSt.contains(stanje))
 			return;
 		dohvatljivaSt.add(stanje);
-		for (var entry : (mapaPrijelaza.get(stanje)).entrySet()) {
+		for (var entry : (mapaPrijelaza.get(stanje)).entrySet()) { 
 			String string1;
 			string1 = entry.getValue();
 			makniNedohvatljivaSt(dohvatljivaSt, mapaPrijelaza, string1);

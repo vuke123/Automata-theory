@@ -13,7 +13,7 @@ public class SimEnka {
 			 String str = iter.next();
 			 iter.remove(); 
 			 set2.add(str);
-			 if(epsilonPrijelazi.containsKey(str)) {
+			 if(epsilonPrijelazi.containsKey(str)) { 
 				 HashMap<String, TreeSet<String>> manjiPrijelazi = epsilonPrijelazi.get(str);
 				 if(manjiPrijelazi.containsKey("$")) {
 					 TreeSet<String> epsiloni = manjiPrijelazi.get("$"); 

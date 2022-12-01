@@ -12,7 +12,7 @@ public class SimPa {
 	public static void main(String args[]) throws IOException {
 
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-
+		
 		String s = reader.readLine();
 		String[] ulazniNiz = s.split("\\|");
 
